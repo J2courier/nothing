@@ -1,0 +1,435 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+*{
+    margin: 0px;
+    letter-spacing: 2px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.938);
+}
+.main-container1{
+    margin-top: -40px;
+}
+.profile-circle{
+    width: 200px;
+    height: 200px;
+    border: solid rgb(82, 0, 140);
+    background-color: rgb(21, 21, 21);
+    background-image: url(images/pfp.jpg);
+    box-shadow: 0px 0px 5px 2px rgba(47, 47, 47, 0.755);
+    border-radius: 50%;
+    position: relative;
+    top: -160px;
+    left: 100px;
+}
+
+.box-bg{
+    height: 300px;
+    width: 1400px;
+    background-color: blueviolet;
+    background: linear-gradient(rgb(174, 0, 174), rgb(60, 5, 78));
+    border-radius: 15px;
+    position: relative;
+    left: 60px;
+    top: 70px;
+}
+/*.box-item{
+    width: 200px;
+    height: 60px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    position: relative;
+    top: 270px;
+    left: 1160px;
+    padding: 4px 2px 2px 15px;
+}*/
+.profile-circle-header{
+    position: relative;
+    height: 37px;
+    width: 190px;
+    background-color: rgb(138, 25, 138);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.453);
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -60px;
+    left: 1100px;
+    padding: 8px 20px 2px 50px;
+ /*this is how to use the transition*/
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.buffer{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1310px;
+    top: -58px;
+}
+
+.profile-circle-header:hover{
+    background-color:  rgb(204, 40, 204);
+    color:rgb(17, 17, 17);
+}
+.container-info{
+    position: relative;
+    bottom: 290px;
+    margin-left:320px;
+}
+.name{
+    color: rgb(232, 226, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+
+}
+.birthdate{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 218, 255);
+    margin-bottom: 3px;
+}
+.age{
+    color: rgb(245, 218, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+/*
+.c{
+    opacity: 95%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.cpp{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.js{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+} */
+ .box-for-socmed{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(60, 5, 78);
+    border-radius: 10px;
+    position: relative;
+    left: 60px;
+    bottom: 190px;
+    padding: 13px 15px 12px 120px;
+ }
+ .new-box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(226, 194, 255, 0.09);
+    box-shadow: 0px 0px 5px 3px purple;
+    border-radius: 50%;
+    left: 10px;
+    top: 50px;
+ }
+ .fb{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    background-color: rgba(73, 26, 117, 0.564);
+    border-radius: 5px;
+    padding:5px 0px 0px 20px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+ }
+ .github{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    background-color: rgba(73, 26, 117, 0.564);
+    border-radius: 5px;
+    padding:5px 0px 0px 20px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+ }
+ .X{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    background-color: rgba(73, 26, 117, 0.564);
+    border-radius: 5px;
+    padding:5px 0px 0px 20px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+ }
+ .dc{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    background-color: rgba(73, 26, 117, 0.564);
+    border-radius: 5px;
+    padding:5px 0px 0px 20px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+ }
+ .spotif{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    background-color: rgba(73, 26, 117, 0.564);
+    border-radius: 5px;
+    padding:5px 0px 0px 20px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+ }
+ .social-media{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(60, 5, 78);
+    border-radius: 5px;
+    position: relative;
+    width: 400px;
+    height: 40px;
+    top: 15px;
+    right: 120px;
+    margin-top: 5px;
+    padding: 5px 15px;
+ }
+
+ .fb:hover .logo-facebook{
+    display: block;
+ }
+ .github:hover .logo-github{
+    display: block;
+ }
+ .X:hover .logo-x{
+    display: block;
+ }
+ .dc:hover .logo-discord{
+    display: block;
+ }
+ .spotif:hover .logo-spotif{
+    display: block;
+ }
+
+ .fb:hover {
+    background-color: blueviolet;
+ }
+ .github:hover {
+    background-color: blueviolet;
+    
+ }
+ .X:hover {
+    background-color: blueviolet;
+
+ }
+ .dc:hover {
+    background-color: blueviolet;
+
+ }
+ .spotif:hover{
+    background-color: blueviolet;
+ }
+
+
+ .dctext{
+    transition: transform 0.3s;
+    cursor: pointer;
+ }
+ .dctext:hover{
+    transform: translateX(70px);
+ }
+
+.fbtext{
+    transition: transform 0.3s;
+    cursor: pointer;
+ }
+ .fbtext:hover{
+    transform: translateX(50px);
+ }
+
+ .xtext{
+    transition: transform 0.3s;
+    cursor: pointer;
+ }
+ .xtext:hover{
+    transform: translateX(70px);
+ }
+
+ .spotiftext{
+    transition: transform 0.3s;
+    cursor: pointer;
+ }
+ .spotiftext:hover{
+    transform: translateX(70px);
+ }
+
+ .gittext{
+    transition: transform 0.3s;
+    cursor: pointer;
+ }
+ .gittext:hover{
+    transform: translateX(70px);
+ }
+
+.aDC{
+    text-decoration: none;
+}
+.aFb{
+    text-decoration: none;
+}
+.aGit{
+    text-decoration: none;
+}
+.aSpotif{
+    text-decoration: none;
+}
+.aX{
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    bottom: 200px;
+}
+
+.dc .logo-discord{
+    position: absolute;
+    display: none;
+    left: 10px;
+    top: 55px;
+    width: 100px;
+    height: 100px;
+}
+.fb .logo-facebook{
+    position: absolute;
+    display: none;
+    left: 10px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.X .logo-x{
+    position: absolute;
+    display: none;
+    left: 10px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.spotif .logo-spotif{
+    position: absolute;
+    display: none;
+    left: 10px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.github .logo-github{
+    position: absolute;
+    display: none;
+    left: 10px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.box-for-achievements{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(60, 5, 78);
+    border-radius: 10px;
+    position: relative;
+    left: 480px;
+    bottom: 390px;
+    padding: 13px 15px 12px 120px;
+}
+.achie{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(60, 5, 78);
+    border-width: 1px;
+    border-radius: 5px;
+    position: relative;
+    width:600px;
+    height: 40px;
+    top: 190px;
+    right: 119px;
+    padding: 5px 15px 0px 200px;
+}
+.none{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 180px;
+    font-weight: 900;
+    bottom: 80px;
+    right: 115px;
+}
+.box-for-others{
+    width: 360px;
+    height: 200px;
+    background-color: rgb(60, 5, 78);
+    background: linear-gradient(to bottom, rgb(60, 5, 78), rgb(109, 10, 196));
+    border-radius: 10px;
+    position: relative;
+    left: 1100px;
+    bottom: 590px;
+    padding: 13px 15px 12px 120px;
+}
+.otherText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 190px;
+    right: 120px;
+    background-color: rgb(60, 5, 78);
+    border-width: 1px;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 6px 15px 0px 125px;
+    cursor: pointer;
+} 
+.otherText:hover{
+    background-color: rgb(109, 10, 196);
+}
+.achie:hover{
+
+}
+/*.mihon{
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+    right: 115px;
+    width: 150px;
+    height: 150px;
+}*/
+.yapping{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 50px;
+    bottom: 25px;
+}
+.second-container{
+    position: relative;
+    bottom: 500px;
+    height: 100px;
+    width: 1517px;
+    background-color: rgb(94, 29, 155);
+}
